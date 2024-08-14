@@ -11,8 +11,8 @@ import com.example.crazyapp.model.Note
     entities = [Note::class])
 
 abstract class NoteDatabase:RoomDatabase() {
-
     abstract fun getNotDao():NoteDao
+
 
 
     companion object{
